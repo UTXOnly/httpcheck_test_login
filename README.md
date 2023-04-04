@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 
-=======
-Here's the updated README to reflect the containerized application and Docker Compose environment variable:
->>>>>>> docker-compose
 
 # httpcheck_test_login README
 
