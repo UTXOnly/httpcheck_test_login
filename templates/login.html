@@ -1,13 +1,26 @@
-{% if error %}
-  <p style="color:red;">{{ error }}</p>
-{% endif %}
+<div style="display: flex; align-items: center; justify-content: center; height: 100vh;">
+  <div style="padding: 20px; background-color: #632CA6; border-radius: 10px; text-align: center; color: #fff">
+    <h2 style="font-family: 'Lato', sans-serif; font-size: 30px; margin-bottom: 20px;">Please Login</h2>
 
-<form method="post">
-  <label for="username">Username:</label>
-  <input type="text" name="username" id="username"><br><br>
+    {% if error %}
+      <p style="color: #ff645c; font-size: 18px;">{{ error }}</p>
+    {% endif %}
 
-  <label for="password">Password:</label>
-  <input type="password" name="password" id="password"><br><br>
+    <form method="post">
+      <label for="username" style="font-family: 'Lato', sans-serif; font-size: 22px;">Username:</label>
+      <br>
+      <input type="text" name="username" id="username" style="border: 2px solid #d8d8d8; font-size: 18px;
+        padding: 10px 14px; border-radius: 4px; margin: 8px 0; box-sizing: border-box;" required>
+      <br><br>
 
-  <input type="submit" value="Submit">
-</form>
+      <label for="password" style="font-family: 'Lato', sans-serif; font-size: 22px;">Password:</label>
+      <br>
+      <input type="password" name="password" id="password" style="border: 2px solid #d8d8d8; font-size: 18px; 
+        padding: 10px 14px; border-radius: 4px; margin: 8px 0; box-sizing: border-box;" required>
+      <br><br>
+
+      <input type="submit" value="Submit" style="background-color: #fff; color: #632CA6; font-family: 'Lato', sans-serif; 
+        font-size: 22px; border: none; padding: 12px 24px; border-radius: 4px; cursor: pointer;">
+    </form>
+  </div>
+</div>

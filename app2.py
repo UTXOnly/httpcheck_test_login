@@ -8,7 +8,7 @@ users = {'user1': 'password1', 'user2': 'password2'}
 
 @app.route('/')
 def home():
-    return "Welcome to the homepage!"
+    return render_template('home.html')
 
 @app.route('/login')
 def login():
@@ -41,7 +41,8 @@ def protected():
     if authenticated != 'true':
         return redirect('/login')
     else:
-        return "Welcome to the protected page!"
+        return render_template('protected.html')
 
 if __name__ == '__main__':
     app.run(debug=True, port=8000)
+
