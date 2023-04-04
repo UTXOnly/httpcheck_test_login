@@ -1,12 +1,16 @@
 version: '3'
+
 services:
   flask_app:
     build: .
-    ports:
-      - "5000:5000"
     env_file:
       - .env
     environment:
       SECRET_KEY: ${SECRET_KEY}
       DB_USERNAME: ${DB_USERNAME}
       DB_PASSWORD: ${DB_PASSWORD}
+
+    ports:
+      - "127.0.0.1:3007:3007"
+
+
