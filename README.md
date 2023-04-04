@@ -37,7 +37,7 @@ Once you have filled out the `.env` file, save it and make sure it is located in
 
 ## Usage
 
-1. Open your web browser and go to `http://localhost:5000` 
+1. Open your web browser and go to `http://localhost:3007` 
 2. Enter your username and password credentials and click the Submit button
 3. If the credentials are correct, you will be redirected to a success page. Otherwise, an error message will be displayed on the login page.
 
