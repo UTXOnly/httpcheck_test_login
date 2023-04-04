@@ -6,9 +6,9 @@ This is a simple login form web application built using HTML, CSS, and Flask. Th
 
 ## Installation
 
-1. Clone this repository to your local machine using `git clone https://github.com/<your-username>/<repo-name>.git`
-2. Navigate to the project directory using `cd <repo-name>`
-3. Install the required dependencies listed in the `requirements.txt` file by running `pip install -r requirements.txt`
+1. Clone this repository to your local machine using `git clone https://github.com/UTXOnly/httpcheck_test_login.git`
+2. Navigate to the project directory using `cd httpcheck_test_login`
+3. Install the required dependencies listed in the `requirements.txt` file by running `pip install -r requirements.txt` from a `BASH` terminal
 
 ## Usage
 
