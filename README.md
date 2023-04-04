@@ -1,4 +1,4 @@
-Sure, here it is in markdown:
+
 
 # Web Application README
 
@@ -20,7 +20,3 @@ This is a simple login form web application built using HTML, CSS, and Flask. Th
 ## Contributing
 
 If you find any issues with the application or if you would like to suggest new features, please open an issue or submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/<your-username>/<repo-name>/blob/master/LICENSE) file for more details.
